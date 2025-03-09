@@ -1,0 +1,193 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:radial-gradient(#1050bd, #000037);
+    color: #fff;
+}
+
+header{
+    background: linear-gradient(#042eff48, #0008f733);
+}
+
+h2{
+    padding-left: 15px;
+    color: #f0f8ff;
+}
+
+span{
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+header, p{
+    padding: 15px;
+}
+
+nav{
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+footer{
+    background: linear-gradient(180deg, #042eff48, #0008f733);
+    color: #ffffff3e;
+}
+
+main{
+    padding: 5px;
+    background: linear-gradient(#00007b49,#092aff27);
+}
+
+#navs a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#navs a:hover{
+    background: #fff;
+    color: #000;
+    transition: 500ms;
+}
+
+#practica1:hover span{
+    padding-right: 150px;
+    background-color: #008CBA;
+    color: #000000;
+    box-shadow: 0 12px 16px 0 #0000003d, 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#practica1 span:after{
+    content: "CV personal";
+    position:absolute;
+    opacity: 0;
+    top:10;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#practica1:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#practica2:hover span{
+    padding-right: 250px;
+    background-color: #008CBA;
+    color: #000000;
+    box-shadow: 0 12px 16px 0 #0000003d, 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#practica2 span:after{
+    content: "La historia de la web";
+    position:absolute;
+    opacity: 0;
+    top: 10;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#practica2:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#practica3:hover span{
+    padding-right: 300px;
+    background-color: #008CBA;
+    color: #000000;
+    box-shadow: 0 12px 16px 0 #0000003d, 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#practica3 span:after{
+    content: "Informacion Personal";
+    position:absolute;
+    opacity: 0;
+    top: 10;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#practica3:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#practica4:hover span{
+    padding-right: 100px;
+    background-color: #008CBA;
+    color: #000000;
+    box-shadow: 0 12px 16px 0 #0000003d, 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#practica4 span:after{
+    content: "Paises";
+    position:absolute;
+    opacity: 0;
+    top: 10;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#practica4:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+#practica5:hover span{
+    padding-right: 300px;
+    background-color: #008CBA;
+    color: #000000;
+    box-shadow: 0 12px 16px 0 #0000003d, 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#practica5 span:after{
+    content: "Conoce Rafael Delgado";
+    position:absolute;
+    opacity: 0;
+    top: 10;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#practica5:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+

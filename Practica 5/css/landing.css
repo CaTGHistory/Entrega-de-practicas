@@ -1,0 +1,102 @@
+body{
+    margin: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    background: radial-gradient(#2202c6, #000000);
+}
+
+a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+header,
+main,
+nav,
+aside,
+footer {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #000358;
+    border-radius: 4px;
+    background-color: #0606fc1f;
+}
+
+main{
+    padding: 5%;
+    color: #fff;
+}
+
+header h1, p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+section{
+    border-top: 1px solid #ccc;
+}
+aside{
+    width: 20%;
+}
+
+#contenido{
+    display: flex;
+}
+
+#rafael{
+    width: 40%;
+    padding: 15px;
+}
+
+#atencion{
+    display: flex;
+    align-items: flex-start;
+}
+ 
+#atencion div{
+    text-align: center;
+}
+
+#interese{
+    display: flex;
+    align-items: flex-end;
+}
+
+#blog{
+    color: #0088ff;
+}
+
+
+.comentario{
+    border-right: 1px solid #2f35e7;
+    border-left: 1px solid #2f35e7;
+    text-align: left;
+}
+
+button{
+    background-color: #2f35e7;
+    border-color: #0000;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+
+#accion a{
+    color: #fff;
+}
+
+h2,h3{
+    color: #ffffff;
+}
+
+a{
+    color: #0088ff;
+}
+
+button:hover{
+    background-color: #5258fc;
+}
+
+a:hover{
+    color: #7bc2ff;
+}
